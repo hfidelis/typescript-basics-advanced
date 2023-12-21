@@ -8,7 +8,7 @@ function enumerable2(value: boolean) {
     // listado quando a Classe for mostrada.
     return function (target: any, propertyKey: string, descriptor: PropertyDescriptor) {
         descriptor.enumerable = value
-    }
+    };
 }
 
 class Monster {
